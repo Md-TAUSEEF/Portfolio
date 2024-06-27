@@ -1,0 +1,201 @@
+/* Define styles for desktop screens */
+.Skill_container {
+  background-color: #000000;
+    margin: auto;
+  }
+
+  .container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+
+  .Skill_container h1{
+    font-size: 55px;
+    font-weight: bold;
+    color: white;
+  }
+
+  .Skill_container span{
+    font-size: 55px;
+    font-weight: bold;
+    color: aqua;
+   
+  }
+  .skill_left {
+   margin-top: 40px;
+    flex: 1;
+  }
+  
+  .skill_left_row h1{
+    font-size: 45px;
+    font-weight: bold;
+    color: whitesmoke;
+
+  }
+
+  .skill_left_row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+ 
+  .divided{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 600px;
+  
+
+  }
+
+  .skill_right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 90px;
+  }
+
+  .circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .skill_right1{
+   
+    width: 250px;
+    height: 300px;
+  }
+
+  .skill_right3{
+   
+    width: 250px;
+    height: 300px;
+  }
+
+  .circle_row3{
+    padding: 20px;
+    margin: 12px;
+    border-radius: 100%;
+    width: 90px;
+    height: 90px;
+    border: 4px solid aqua;
+    animation: mymove 5s infinite;    
+  }
+
+  @keyframes mymove {
+    50% {transform: rotate(180deg);}
+  }
+
+  .circle h2{
+    font-size: 25px;
+    font-weight: bold;
+    color: whitesmoke;
+  }
+
+  .circle_row3 h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    font-weight: bold;
+    color: whitesmoke;
+    
+  }
+
+  .skill_left_row2 svg{
+    font-size: 35px;
+    margin: 12px 0px;
+  }
+
+  .skill_right h1{
+    font-size: 45px;
+    color: whitesmoke;
+  }
+
+  
+
+  @media screen and (max-width: 768px) {
+    .Skill_container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .skill_left,
+    .skill_right {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Your existing CSS for skill bars */
+  .progress-line {
+    width: 100%;
+    height: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+  }
+  
+  .progress-line span {
+    display: block;
+    height: 100%;
+    border-radius: 5px;
+  }
+
+  
+  .html span {
+    background-color: #f06529;
+    width: 90%;
+  }
+  
+  .css span {
+    background-color: #2965f1;
+    width: 80%;
+  }
+  
+  .javascript span {
+    background-color: #f0db4f;
+    width: 60%;
+  }
+  
+  .react span {
+    background-color: #61dafb;
+    width: 85%;
+  }
+  
+  .bootstrap span {
+    background-color: #7952b3;
+    width: 80%;
+  }
+  
+  .node span {
+    background-color: #68a063;
+    width: 55%;
+  }
+  
+  .express span {
+    background-color: #000000bd;
+    width: 60%;
+  }
+  
+  .mongodb span {
+    background-color: #4db33d;
+    width: 50%;
+  }
+  
+  .cpp span {
+    background-color: #00599c;
+    width: 75%;
+  }
+  

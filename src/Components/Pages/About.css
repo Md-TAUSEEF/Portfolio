@@ -1,0 +1,64 @@
+.about_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+
+.about_left img{
+    width: 400px;
+    height: 600px;
+    border-radius: 8px;
+    margin: 120px ;
+   box-shadow:3px 3px 25px 2px rgb(180,162,146);
+}
+
+.about_right{
+    margin-right: 16px;
+}
+
+.about_right h1{
+    font-size: 60px;
+    color: aliceblue;
+}
+
+.about_right h1:hover{
+    text-shadow:0 0 5px rgb(250, 251, 251), 0 0 25px rgb(245, 247, 247), 0 0 50pc rgb(251, 253, 253), 0 0 100px rgb(252, 253, 253), 0 0 200px rgb(248, 251, 251);
+    cursor: pointer;
+}
+.about_right h1 span{
+    color: aqua;
+}
+
+.about_right p{
+    color: aliceblue;
+    font-size: 20px;
+    line-height: 2;
+    letter-spacing: 2px;
+    margin-bottom: 4rem;
+    text-align: justify;
+    text-justify: inter-word;
+    
+}
+
+.about_right button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: 2px solid #0ef;
+    padding: 10px;
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.about_right button:hover{
+    cursor: pointer;
+    box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50pc cyan, 0 0 100px cyan, 0 0 200px cyan;
+}
