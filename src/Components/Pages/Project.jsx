@@ -2,6 +2,8 @@ import React from 'react';
 import './ProjectSection.css';
 import Health from "../Images/Health.png";
 import Cnt from "../Images/Cnt.png";
+import Krite from "../Images/Krite.png";
+import client from "../Images/client.png";
 import Footer from './Footer';
 
 const projects = [
@@ -47,7 +49,7 @@ const projects = [
   },
   {
     title: "Client Dashboard",
-    image: "https://reactjsexample.com/content/images/2021/11/linkedin.jpg",
+    image: "client",
     description: "This project involves the creation of a Client Dashboard, designed to provide users with an intuitive, secure, and data-driven interface to manage and monitor their personalized information.",
     keyPoints: [
       "Customizable widgets and interactive visualizations such as charts and graphs to help users gain insights into key metrics",
@@ -59,7 +61,7 @@ const projects = [
   },
   {
     title: "K-Rite Product Dashboard",
-    image: "https://reactjsexample.com/content/images/2021/11/linkedin.jpg",
+    image: "Krite",
     description: "Keenly Redefining Innovation (K_Rite) that embodies innovation and functionality. From crafting captivating interfaces to implementing seamless interactions, every detail has been meticulously designed.",
     keyPoints: [
       "Technologies: HTML, CSS, and Javascript",
