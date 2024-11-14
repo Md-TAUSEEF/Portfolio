@@ -6,6 +6,32 @@ import Footer from './Footer';
 
 const projects = [
   {
+    title: "Healthicious Web App",
+    image: Health,
+    description: "Healthicious is a comprehensive web application designed to help users make informed dietary choices and track their health metrics.",
+    keyPoints: [
+      "BMI Calculator: Allows users to measure their BMI and receive personalized food recommendations for protein-rich diets.",
+      "Ingredient Feature: Provides detailed information on various ingredients to help users make healthy choices.",
+      "Trending Foods: Displays a list of currently trending foods to keep users updated on popular dietary trends.",
+      "Contact Form: Enables users to easily contact the admin with any issues or questions. Admins can view and respond to messages, and update client information.",
+      "Technologies Used: React.js, Redux, Node.js, Express, MongoDB."
+    ],
+    link: "https://get-recipes-murex.vercel.app/"
+  },
+  {
+    title: "LinkedIn Clone Web App",
+    image: "https://reactjsexample.com/content/images/2021/11/linkedin.jpg",
+    description: "Architected and developed a LinkedIn clone web application, focusing on aesthetics, data management, and user authentication.",
+    keyPoints: [
+      "Technologies: React.js, Firebase, Redux.",
+      "Implemented user registration and authentication.",
+      "Integrated YouTube API for video playback.",
+      "Achieved a 75% improvement in user registration and a 58% increase in user interaction.",
+      "Emphasized on clean, responsive UI/UX design."
+    ],
+    link: "http://linkdin-clone-green.vercel.app"
+  },
+  {
     title: "Ecommerce App",
     image: "https://ecommerce-admin.com/assets/images/screenshots/products.webp",
     description: "Developed a comprehensive ecommerce web application designed to enhance the online shopping experience. This project involved creating a user-friendly interface, integrating secure payment options, and ensuring efficient product search functionality.",
@@ -20,17 +46,29 @@ const projects = [
     link: "http://e-commerce-website-weld.vercel.app"
   },
   {
-    title: "Healthicious Web App",
-    image: Health,
-    description: "Healthicious is a comprehensive web application designed to help users make informed dietary choices and track their health metrics.",
+    title: "Client Dashboard",
+    image: "https://reactjsexample.com/content/images/2021/11/linkedin.jpg",
+    description: "This project involves the creation of a Client Dashboard, designed to provide users with an intuitive, secure, and data-driven interface to manage and monitor their personalized information.",
     keyPoints: [
-      "BMI Calculator: Allows users to measure their BMI and receive personalized food recommendations for protein-rich diets.",
-      "Ingredient Feature: Provides detailed information on various ingredients to help users make healthy choices.",
-      "Trending Foods: Displays a list of currently trending foods to keep users updated on popular dietary trends.",
-      "Contact Form: Enables users to easily contact the admin with any issues or questions. Admins can view and respond to messages, and update client information.",
-      "Technologies Used: React.js, Redux, Node.js, Express, MongoDB."
+      "Customizable widgets and interactive visualizations such as charts and graphs to help users gain insights into key metrics",
+      "The dashboard offers real-time data updates",
+      "Ensuring fast load times and a smooth user experience",
+      "The dashboard is optimized for performance",
     ],
-    link: "http://linkdin-clone-green.vercel.app"
+    link: "https://internship-sandy.vercel.app/"
+  },
+  {
+    title: "K-Rite Product Dashboard",
+    image: "https://reactjsexample.com/content/images/2021/11/linkedin.jpg",
+    description: "Keenly Redefining Innovation (K_Rite) that embodies innovation and functionality. From crafting captivating interfaces to implementing seamless interactions, every detail has been meticulously designed.",
+    keyPoints: [
+      "Technologies: HTML, CSS, and Javascript",
+      "From crafting captivating interfaces to implementing seamless interactions",
+      "Grateful for the opportunity to contribute to cutting-edge projects and collaborate with forward-thinking minds.",
+      "Brought forth a solution that embodies innovation and functionality.",
+      "Emphasized on clean, responsive UI/UX design."
+    ],
+    link: "https://k-rite-ui-design.vercel.app/"
   },
   {
     title: "Contact Management System Project",
@@ -46,19 +84,6 @@ const projects = [
     ],
     link: "https://deploy-mern-frontend-kh85j85ik-md-tauseefs-projects.vercel.app/"
   },
-  {
-    title: "LinkedIn Clone Web App",
-    image: "https://reactjsexample.com/content/images/2021/11/linkedin.jpg",
-    description: "Architected and developed a LinkedIn clone web application, focusing on aesthetics, data management, and user authentication.",
-    keyPoints: [
-      "Technologies: React.js, Firebase, Redux.",
-      "Implemented user registration and authentication.",
-      "Integrated YouTube API for video playback.",
-      "Achieved a 75% improvement in user registration and a 58% increase in user interaction.",
-      "Emphasized on clean, responsive UI/UX design."
-    ],
-    link: "http://linkdin-clone-green.vercel.app"
-  }
 ];
 
 function ProjectSection() {
