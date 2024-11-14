@@ -49,7 +49,7 @@ const projects = [
   },
   {
     title: "Client Dashboard",
-    image: "Client",
+    image: Client,
     description: "This project involves the creation of a Client Dashboard, designed to provide users with an intuitive, secure, and data-driven interface to manage and monitor their personalized information.",
     keyPoints: [
       "Customizable widgets and interactive visualizations such as charts and graphs to help users gain insights into key metrics",
@@ -61,7 +61,7 @@ const projects = [
   },
   {
     title: "K-Rite Product Dashboard",
-    image: "Krite",
+    image: Krite,
     description: "Keenly Redefining Innovation (K_Rite) that embodies innovation and functionality. From crafting captivating interfaces to implementing seamless interactions, every detail has been meticulously designed.",
     keyPoints: [
       "Technologies: HTML, CSS, and Javascript",
