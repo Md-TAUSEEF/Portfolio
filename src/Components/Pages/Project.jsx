@@ -3,7 +3,7 @@ import './ProjectSection.css';
 import Health from "../Images/Health.png";
 import Cnt from "../Images/Cnt.png";
 import Krite from "../Images/Krite.png";
-import client from "../Images/client.png";
+import Client from "../Images/Client.png";
 import Footer from './Footer';
 
 const projects = [
@@ -49,7 +49,7 @@ const projects = [
   },
   {
     title: "Client Dashboard",
-    image: "client",
+    image: "Client",
     description: "This project involves the creation of a Client Dashboard, designed to provide users with an intuitive, secure, and data-driven interface to manage and monitor their personalized information.",
     keyPoints: [
       "Customizable widgets and interactive visualizations such as charts and graphs to help users gain insights into key metrics",
