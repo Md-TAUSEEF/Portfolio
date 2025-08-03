@@ -1,154 +1,121 @@
 .Home_container {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+  padding: 40px 20px;
   background-color: #000;
-  padding: 2rem 1rem;
+  color: #fff;
 }
 
 .Home_left {
+  flex: 1 1 300px;
+  padding: 20px;
   text-align: center;
-  margin-top: 40px;
 }
 
 .Home_left h1 {
-  font-size: 2.5rem;
-  color: aliceblue;
+  font-size: 2rem;
+  margin-bottom: 10px;
 }
 
 .Home_left h2 {
-  font-size: 3rem;
-  color: aliceblue;
+  font-size: 2.5rem;
+  margin-bottom: 10px;
 }
 
 .Home_left h3 {
-  font-size: 2rem;
-  color: aliceblue;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
 }
 
-.Home_left h3 span {
+.Home_left h3 .text {
   color: #0ef;
-  font-size: 2rem;
-  font-weight: 700;
+  font-weight: bold;
 }
 
 .svfimage {
   display: flex;
   justify-content: center;
-  gap: 1rem;
-  color: #0ef;
-  margin: 20px auto;
+  gap: 15px;
+  margin: 20px 0;
 }
 
 .svfimage svg {
-  font-size: 20px;
+  font-size: 24px;
   border: 2px solid #0ef;
   border-radius: 50%;
-  padding: 6px;
-  cursor: pointer;
+  padding: 8px;
   transition: 0.3s ease;
+  cursor: pointer;
 }
 
 .svfimage svg:hover {
-  background: #0ef;
+  background-color: #0ef;
   color: #000;
-  box-shadow: 0 0 20px #0ef;
+  box-shadow: 0 0 10px #0ef;
 }
 
 .Home_left button {
-  background-color: transparent;
-  border: 2px solid #0ef;
   padding: 10px 20px;
-  color: aliceblue;
+  border: 2px solid #0ef;
+  background-color: transparent;
+  color: #fff;
   font-size: 1rem;
   font-weight: bold;
-  margin-top: 30px;
   cursor: pointer;
+  transition: box-shadow 0.3s ease;
 }
 
 .Home_left button:hover {
-  box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan;
+  box-shadow: 0 0 5px #0ef, 0 0 25px #0ef, 0 0 50px #0ef;
+}
+
+.Home_right {
+  flex: 1 1 300px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
 }
 
 .Home_right img {
-  width: 100%;
-  max-width: 350px;
-  margin-top: 30px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
   filter: grayscale(100%);
-  border-radius: 6px;
 }
 
 
-@media only screen and (min-width: 768px) {
+@media (max-width: 768px) {
   .Home_container {
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 3rem 5%;
+    flex-direction: column;
+    padding: 20px 10px;
+    text-align: center;
   }
 
-  .Home_left {
-    width: 50%;
-    text-align: left;
-    margin-top: 0;
-  }
-
-  .Home_right {
-    width: 45%;
-  }
-
-  .Home_right img {
-    margin-top: 0;
-    margin-left: 0;
-  }
-
-  .svfimage {
-    justify-content: flex-start;
-    margin: 20px 0;
-  }
-}
-
-
-@media only screen and (min-width: 1024px) {
-  .Home_left {
-    width: 40%;
-  }
-
-  .Home_right {
-    width: 50%;
-  }
-
-  .Home_right img {
-    max-width: 400px;
-  }
-}
-
-
-@media only screen and (max-width: 767px) {
   .Home_left h1 {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
   }
 
   .Home_left h2 {
     font-size: 2rem;
   }
 
-  .Home_left h3,
-  .Home_left h3 span {
+  .Home_left h3 {
     font-size: 1.2rem;
   }
 
+  .Home_right img {
+    max-width: 280px;
+  }
+
   .svfimage svg {
-    font-size: 18px;
-    padding: 5px;
+    font-size: 20px;
+    padding: 6px;
   }
 
   .Home_left button {
     font-size: 0.9rem;
     padding: 8px 16px;
-  }
-
-  .Home_right img {
-    max-width: 280px;
   }
 }
