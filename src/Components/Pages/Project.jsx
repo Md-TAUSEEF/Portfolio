@@ -35,7 +35,7 @@ const projects = [
   },
   {
     title: "Ecommerce App",
-    image: "https://www.freepik.com/free-vector/flat-design-e-commerce-website-landing-page_30121123.htm",
+    image: "https://pixabay.com/photos/bookkeeper-accountant-office-coffee-1016299/",
     description: "Developed a comprehensive ecommerce web application designed to enhance the online shopping experience. This project involved creating a user-friendly interface, integrating secure payment options, and ensuring efficient product search functionality.",
     keyPoints: [
       "Designed and implemented a responsive user interface using React.js, ensuring a seamless experience across all devices.",
