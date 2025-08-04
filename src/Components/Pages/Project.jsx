@@ -35,7 +35,7 @@ const projects = [
   },
   {
     title: "Ecommerce App",
-    image: "https://pixabay.com/photos/bookkeeper-accountant-office-coffee-1016299/",
+    image: "https://cdn.pixabay.com/photo/2015/01/28/22/20/bookkeeping-615384_1280.jpg",
     description: "Developed a comprehensive ecommerce web application designed to enhance the online shopping experience. This project involved creating a user-friendly interface, integrating secure payment options, and ensuring efficient product search functionality.",
     keyPoints: [
       "Designed and implemented a responsive user interface using React.js, ensuring a seamless experience across all devices.",
