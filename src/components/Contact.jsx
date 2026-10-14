@@ -449,7 +449,7 @@ Sent from your portfolio website.
                       name="phone"
                       value={formData.phone}
                       onChange={handleChange}
-                      placeholder="+91 98765 43210"
+                      placeholder="+91 72550 05301"
                       autoComplete="tel"
                       className="w-full rounded-xl border border-slate-200 bg-slate-50/60 px-4 py-3 text-xs text-slate-900 outline-none transition-all placeholder:text-slate-400 focus:border-teal-600 focus:bg-white focus:ring-4 focus:ring-teal-600/10"
                     />
